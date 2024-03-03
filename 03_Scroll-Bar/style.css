@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: black;
+}
+
+.container
+{
+    display: flex;
+    margin: 50px;
+}
+
+.P-Container1
+{
+    background-color: rgb(154, 83, 117);
+    text-align: center;
+    font-size: 70px;
+    
+    
+}
+.P-Container2
+{
+    background-color: rgb(122, 82, 82);
+    text-align: center;
+    font-size: 70px;
+    
+}
+
+.P-Container3
+{
+    background-color: rgb(66, 118, 73);
+    text-align: center;
+    font-size: 70px;
+}
+
+::-webkit-scrollbar
+{
+    background-color: transparent;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: goldenrod;
+}
