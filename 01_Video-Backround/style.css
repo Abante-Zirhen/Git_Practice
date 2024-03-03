@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+   
+  }
+  
+  .Background
+  {
+       position: absolute;
+       z-index: -1;
+       width: 100%;
+       right: 0;
+       bottom: 0;
+  }
+  
+  .content
+  {
+      text-align: center;
+  
+  }
+  
+  .content h1
+  {
+      font-size: 160px;
+      color: white;
+      transition: 0.5s;
+      font-weight: 600;
+  }
+  
+  .content h1:hover
+  {
+      -webkit-text-stroke: 2px rgb(255, 255, 255);
+      color: transparent;
+  }
+  
+  .content a
+  {
+       text-decoration: none;
+       display: inline-block;
+       color: white;
+       border: solid white;
+       font-size: 20px;
+       padding: 15px 30px;
+       transition: 0.5s;
+       
+  }
+  
+  .content a:hover
+  {
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  
+  
+  } 
+   
+  @media (min-aspect-ratio: 16/9)
+   {
+         .Background
+         {
+          width: 100%;
+          height: auto;
+         }    
+  }
+  @media (max-aspect-ratio: 16/9)
+   {
+         .Background
+         {
+          width: auto;
+          height: 100%;
+         }    
+  }
+  
