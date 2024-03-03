@@ -1,97 +1,68 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body
-{
-    background-color: black;
+body {
+  background-color: black;
 }
 
-.wrapper
-{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   min-height: 100vh;
-   
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.wrapper .container
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-   
+.wrapper .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.container .loading
-{
-    margin: 0 10px;
-    animation: Animation 1s ease-out infinite ;
-
-
-   
+.container .loading {
+  margin: 0 10px;
+  animation: Animation 1s ease-out infinite;
 }
 
-.container :nth-child(1) 
-{
-     border-radius: 100px;
-     background-color: white;
-     width: 20px;
-     height: 20px;
-     animation-delay: 0.3s;
-     
-
+.container :nth-child(1) {
+  border-radius: 100px;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0.3s;
 }
-.container :nth-child(2) 
-{
-     border-radius: 100px;
-     background-color: white;
-     width:20px;
-     height: 20px;
-     animation-delay: 1.3s;
-     
-     
+.container :nth-child(2) {
+  border-radius: 100px;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  animation-delay: 1.3s;
 }
-.container :nth-child(3) 
-{
-     border-radius: 100px;
-     background-color: white;
-     width:20px;
-     height: 20px;
-     animation-delay: 2.3s;
-    
-     
+.container :nth-child(3) {
+  border-radius: 100px;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2.3s;
 }
 
-.container :nth-child(4) 
-{
-     border-radius: 100px;
-     background-color: white;
-     width:20px;
-     height: 20px;
-     animation-delay: 3.3s;
-   
+.container :nth-child(4) {
+  border-radius: 100px;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  animation-delay: 3.3s;
 }
 
-@keyframes Animation
- {
-    0%
-    {
-        width: 20px;
-        height: 20px;
-        transform: translateY(0)
-        
-    }    
-    50%
-    {
-      width:30px;
-      height: 20px;
-      transform: translateY(-5px)
-      
-    }
+@keyframes Animation {
+  0% {
+    width: 20px;
+    height: 20px;
+    transform: translateY(0);
+  }
+  50% {
+    width: 30px;
+    height: 20px;
+    transform: translateY(-5px);
+  }
 }
-
-
